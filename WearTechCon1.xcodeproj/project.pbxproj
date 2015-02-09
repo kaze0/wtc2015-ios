@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C1879431AA368D1000AB53E /* ic_action_balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1879401AA368D1000AB53E /* ic_action_balloon.png */; };
+		6C1879441AA368D1000AB53E /* ic_action_balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1879401AA368D1000AB53E /* ic_action_balloon.png */; };
+		6C1879451AA368D1000AB53E /* ic_action_balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1879401AA368D1000AB53E /* ic_action_balloon.png */; };
+		6C1879461AA368D1000AB53E /* ic_action_balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1879401AA368D1000AB53E /* ic_action_balloon.png */; };
+		6C1879471AA368D1000AB53E /* ic_action_attachment_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1879411AA368D1000AB53E /* ic_action_attachment_2.png */; };
+		6C1879481AA368D1000AB53E /* ic_action_attachment_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1879411AA368D1000AB53E /* ic_action_attachment_2.png */; };
+		6C1879491AA368D1000AB53E /* ic_action_attachment_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1879411AA368D1000AB53E /* ic_action_attachment_2.png */; };
+		6C18794A1AA368D1000AB53E /* ic_action_attachment_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1879411AA368D1000AB53E /* ic_action_attachment_2.png */; };
+		6C18794B1AA368D1000AB53E /* ic_action_armchair.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1879421AA368D1000AB53E /* ic_action_armchair.png */; };
+		6C18794C1AA368D1000AB53E /* ic_action_armchair.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1879421AA368D1000AB53E /* ic_action_armchair.png */; };
+		6C18794D1AA368D1000AB53E /* ic_action_armchair.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1879421AA368D1000AB53E /* ic_action_armchair.png */; };
+		6C18794E1AA368D1000AB53E /* ic_action_armchair.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1879421AA368D1000AB53E /* ic_action_armchair.png */; };
+		6C5721D61AAB226E00CFB10F /* Settings-Watch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6C5721D51AAB226E00CFB10F /* Settings-Watch.bundle */; };
 		6C6F6FB01A88CA08003F93C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F6FAF1A88CA08003F93C6 /* main.m */; };
 		6C6F6FB31A88CA08003F93C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F6FB21A88CA08003F93C6 /* AppDelegate.m */; };
 		6C6F6FB61A88CA08003F93C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F6FB51A88CA08003F93C6 /* ViewController.m */; };
@@ -14,6 +27,14 @@
 		6C6F6FBB1A88CA08003F93C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6F6FBA1A88CA08003F93C6 /* Images.xcassets */; };
 		6C6F6FBE1A88CA08003F93C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C6F6FBC1A88CA08003F93C6 /* LaunchScreen.xib */; };
 		6C6F6FCA1A88CA08003F93C6 /* WearTechCon1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F6FC91A88CA08003F93C6 /* WearTechCon1Tests.m */; };
+		6C6F6FDE1A88CB56003F93C6 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F6FDD1A88CB56003F93C6 /* InterfaceController.m */; };
+		6C6F6FE11A88CB56003F93C6 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F6FE01A88CB56003F93C6 /* NotificationController.m */; };
+		6C6F6FE41A88CB56003F93C6 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F6FE31A88CB56003F93C6 /* GlanceController.m */; };
+		6C6F6FE61A88CB56003F93C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6F6FE51A88CB56003F93C6 /* Images.xcassets */; };
+		6C6F6FEA1A88CB56003F93C6 /* WearTechCon1 WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 6C6F6FE91A88CB56003F93C6 /* WearTechCon1 WatchKit App.app */; };
+		6C6F6FF21A88CB56003F93C6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6F6FF01A88CB56003F93C6 /* Interface.storyboard */; };
+		6C6F6FF41A88CB56003F93C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6F6FF31A88CB56003F93C6 /* Images.xcassets */; };
+		6C6F6FF71A88CB56003F93C6 /* WearTechCon1 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6C6F6FD71A88CB56003F93C6 /* WearTechCon1 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +45,43 @@
 			remoteGlobalIDString = 6C6F6FA91A88CA08003F93C6;
 			remoteInfo = WearTechCon1;
 		};
+		6C6F6FEB1A88CB56003F93C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C6F6FA21A88CA08003F93C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C6F6FE81A88CB56003F93C6;
+			remoteInfo = "WearTechCon1 WatchKit App";
+		};
+		6C6F6FF51A88CB56003F93C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C6F6FA21A88CA08003F93C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C6F6FD61A88CB56003F93C6;
+			remoteInfo = "WearTechCon1 WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6C6F6FFE1A88CB56003F93C6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6C6F6FF71A88CB56003F93C6 /* WearTechCon1 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6C1879401AA368D1000AB53E /* ic_action_balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_balloon.png; path = ../../../../../../../Downloads/ic_action_balloon.png; sourceTree = "<group>"; };
+		6C1879411AA368D1000AB53E /* ic_action_attachment_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_attachment_2.png; path = ../../../../../../../Downloads/ic_action_attachment_2.png; sourceTree = "<group>"; };
+		6C1879421AA368D1000AB53E /* ic_action_armchair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_action_armchair.png; path = ../../../../../../../Downloads/ic_action_armchair.png; sourceTree = "<group>"; };
+		6C5721D51AAB226E00CFB10F /* Settings-Watch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "Settings-Watch.bundle"; sourceTree = "<group>"; };
+		6C5721D81AAB22F000CFB10F /* WearTechCon1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WearTechCon1.entitlements; sourceTree = "<group>"; };
+		6C5721D91AAB231700CFB10F /* WearTechCon1 WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "WearTechCon1 WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		6C6F6FAA1A88CA08003F93C6 /* WearTechCon1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WearTechCon1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6F6FAE1A88CA08003F93C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C6F6FAF1A88CA08003F93C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +95,20 @@
 		6C6F6FC31A88CA08003F93C6 /* WearTechCon1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WearTechCon1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6F6FC81A88CA08003F93C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C6F6FC91A88CA08003F93C6 /* WearTechCon1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WearTechCon1Tests.m; sourceTree = "<group>"; };
+		6C6F6FD71A88CB56003F93C6 /* WearTechCon1 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WearTechCon1 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6F6FDA1A88CB56003F93C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6F6FDB1A88CB56003F93C6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6C6F6FDC1A88CB56003F93C6 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		6C6F6FDD1A88CB56003F93C6 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		6C6F6FDF1A88CB56003F93C6 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		6C6F6FE01A88CB56003F93C6 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		6C6F6FE21A88CB56003F93C6 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		6C6F6FE31A88CB56003F93C6 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		6C6F6FE51A88CB56003F93C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C6F6FE91A88CB56003F93C6 /* WearTechCon1 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WearTechCon1 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6F6FEF1A88CB56003F93C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6F6FF11A88CB56003F93C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		6C6F6FF31A88CB56003F93C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +126,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6C6F6FD41A88CB56003F93C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		6C6F6FA11A88CA08003F93C6 = {
 			isa = PBXGroup;
 			children = (
+				6C5721D51AAB226E00CFB10F /* Settings-Watch.bundle */,
 				6C6F6FAC1A88CA08003F93C6 /* WearTechCon1 */,
 				6C6F6FC61A88CA08003F93C6 /* WearTechCon1Tests */,
+				6C6F6FD81A88CB56003F93C6 /* WearTechCon1 WatchKit Extension */,
+				6C6F6FED1A88CB56003F93C6 /* WearTechCon1 WatchKit App */,
 				6C6F6FAB1A88CA08003F93C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +153,8 @@
 			children = (
 				6C6F6FAA1A88CA08003F93C6 /* WearTechCon1.app */,
 				6C6F6FC31A88CA08003F93C6 /* WearTechCon1Tests.xctest */,
+				6C6F6FD71A88CB56003F93C6 /* WearTechCon1 WatchKit Extension.appex */,
+				6C6F6FE91A88CB56003F93C6 /* WearTechCon1 WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +162,7 @@
 		6C6F6FAC1A88CA08003F93C6 /* WearTechCon1 */ = {
 			isa = PBXGroup;
 			children = (
+				6C5721D81AAB22F000CFB10F /* WearTechCon1.entitlements */,
 				6C6F6FB11A88CA08003F93C6 /* AppDelegate.h */,
 				6C6F6FB21A88CA08003F93C6 /* AppDelegate.m */,
 				6C6F6FB41A88CA08003F93C6 /* ViewController.h */,
@@ -119,6 +201,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6C6F6FD81A88CB56003F93C6 /* WearTechCon1 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6C5721D91AAB231700CFB10F /* WearTechCon1 WatchKit Extension.entitlements */,
+				6C1879401AA368D1000AB53E /* ic_action_balloon.png */,
+				6C1879411AA368D1000AB53E /* ic_action_attachment_2.png */,
+				6C1879421AA368D1000AB53E /* ic_action_armchair.png */,
+				6C6F6FDC1A88CB56003F93C6 /* InterfaceController.h */,
+				6C6F6FDD1A88CB56003F93C6 /* InterfaceController.m */,
+				6C6F6FDF1A88CB56003F93C6 /* NotificationController.h */,
+				6C6F6FE01A88CB56003F93C6 /* NotificationController.m */,
+				6C6F6FE21A88CB56003F93C6 /* GlanceController.h */,
+				6C6F6FE31A88CB56003F93C6 /* GlanceController.m */,
+				6C6F6FE51A88CB56003F93C6 /* Images.xcassets */,
+				6C6F6FD91A88CB56003F93C6 /* Supporting Files */,
+			);
+			path = "WearTechCon1 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6C6F6FD91A88CB56003F93C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C6F6FDA1A88CB56003F93C6 /* Info.plist */,
+				6C6F6FDB1A88CB56003F93C6 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C6F6FED1A88CB56003F93C6 /* WearTechCon1 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6C6F6FF01A88CB56003F93C6 /* Interface.storyboard */,
+				6C6F6FF31A88CB56003F93C6 /* Images.xcassets */,
+				6C6F6FEE1A88CB56003F93C6 /* Supporting Files */,
+			);
+			path = "WearTechCon1 WatchKit App";
+			sourceTree = "<group>";
+		};
+		6C6F6FEE1A88CB56003F93C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C6F6FEF1A88CB56003F93C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +257,12 @@
 				6C6F6FA61A88CA08003F93C6 /* Sources */,
 				6C6F6FA71A88CA08003F93C6 /* Frameworks */,
 				6C6F6FA81A88CA08003F93C6 /* Resources */,
+				6C6F6FFE1A88CB56003F93C6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6C6F6FF61A88CB56003F93C6 /* PBXTargetDependency */,
 			);
 			name = WearTechCon1;
 			productName = WearTechCon1;
@@ -157,6 +287,39 @@
 			productReference = 6C6F6FC31A88CA08003F93C6 /* WearTechCon1Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		6C6F6FD61A88CB56003F93C6 /* WearTechCon1 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6F6FFB1A88CB56003F93C6 /* Build configuration list for PBXNativeTarget "WearTechCon1 WatchKit Extension" */;
+			buildPhases = (
+				6C6F6FD31A88CB56003F93C6 /* Sources */,
+				6C6F6FD41A88CB56003F93C6 /* Frameworks */,
+				6C6F6FD51A88CB56003F93C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C6F6FEC1A88CB56003F93C6 /* PBXTargetDependency */,
+			);
+			name = "WearTechCon1 WatchKit Extension";
+			productName = "WearTechCon1 WatchKit Extension";
+			productReference = 6C6F6FD71A88CB56003F93C6 /* WearTechCon1 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		6C6F6FE81A88CB56003F93C6 /* WearTechCon1 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6F6FF81A88CB56003F93C6 /* Build configuration list for PBXNativeTarget "WearTechCon1 WatchKit App" */;
+			buildPhases = (
+				6C6F6FE71A88CB56003F93C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WearTechCon1 WatchKit App";
+			productName = "WearTechCon1 WatchKit App";
+			productReference = 6C6F6FE91A88CB56003F93C6 /* WearTechCon1 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +331,28 @@
 				TargetAttributes = {
 					6C6F6FA91A88CA08003F93C6 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = AWE72ZEPGS;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					6C6F6FC21A88CA08003F93C6 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 6C6F6FA91A88CA08003F93C6;
+					};
+					6C6F6FD61A88CB56003F93C6 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = AWE72ZEPGS;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					6C6F6FE81A88CB56003F93C6 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -190,6 +371,8 @@
 			targets = (
 				6C6F6FA91A88CA08003F93C6 /* WearTechCon1 */,
 				6C6F6FC21A88CA08003F93C6 /* WearTechCon1Tests */,
+				6C6F6FD61A88CB56003F93C6 /* WearTechCon1 WatchKit Extension */,
+				6C6F6FE81A88CB56003F93C6 /* WearTechCon1 WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -199,9 +382,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C18794B1AA368D1000AB53E /* ic_action_armchair.png in Resources */,
+				6C5721D61AAB226E00CFB10F /* Settings-Watch.bundle in Resources */,
+				6C1879471AA368D1000AB53E /* ic_action_attachment_2.png in Resources */,
 				6C6F6FB91A88CA08003F93C6 /* Main.storyboard in Resources */,
 				6C6F6FBE1A88CA08003F93C6 /* LaunchScreen.xib in Resources */,
 				6C6F6FBB1A88CA08003F93C6 /* Images.xcassets in Resources */,
+				6C1879431AA368D1000AB53E /* ic_action_balloon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +396,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C18794C1AA368D1000AB53E /* ic_action_armchair.png in Resources */,
+				6C1879441AA368D1000AB53E /* ic_action_balloon.png in Resources */,
+				6C1879481AA368D1000AB53E /* ic_action_attachment_2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6F6FD51A88CB56003F93C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6F6FEA1A88CB56003F93C6 /* WearTechCon1 WatchKit App.app in Resources */,
+				6C6F6FE61A88CB56003F93C6 /* Images.xcassets in Resources */,
+				6C1879451AA368D1000AB53E /* ic_action_balloon.png in Resources */,
+				6C1879491AA368D1000AB53E /* ic_action_attachment_2.png in Resources */,
+				6C18794D1AA368D1000AB53E /* ic_action_armchair.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6F6FE71A88CB56003F93C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6F6FF21A88CB56003F93C6 /* Interface.storyboard in Resources */,
+				6C6F6FF41A88CB56003F93C6 /* Images.xcassets in Resources */,
+				6C1879461AA368D1000AB53E /* ic_action_balloon.png in Resources */,
+				6C18794A1AA368D1000AB53E /* ic_action_attachment_2.png in Resources */,
+				6C18794E1AA368D1000AB53E /* ic_action_armchair.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +447,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6C6F6FD31A88CB56003F93C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6F6FE11A88CB56003F93C6 /* NotificationController.m in Sources */,
+				6C6F6FDE1A88CB56003F93C6 /* InterfaceController.m in Sources */,
+				6C6F6FE41A88CB56003F93C6 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +464,16 @@
 			isa = PBXTargetDependency;
 			target = 6C6F6FA91A88CA08003F93C6 /* WearTechCon1 */;
 			targetProxy = 6C6F6FC41A88CA08003F93C6 /* PBXContainerItemProxy */;
+		};
+		6C6F6FEC1A88CB56003F93C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C6F6FE81A88CB56003F93C6 /* WearTechCon1 WatchKit App */;
+			targetProxy = 6C6F6FEB1A88CB56003F93C6 /* PBXContainerItemProxy */;
+		};
+		6C6F6FF61A88CB56003F93C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C6F6FD61A88CB56003F93C6 /* WearTechCon1 WatchKit Extension */;
+			targetProxy = 6C6F6FF51A88CB56003F93C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +492,14 @@
 				6C6F6FBD1A88CA08003F93C6 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		6C6F6FF01A88CB56003F93C6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C6F6FF11A88CB56003F93C6 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -345,9 +587,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WearTechCon1/WearTechCon1.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WearTechCon1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -355,9 +601,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WearTechCon1/WearTechCon1.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WearTechCon1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -395,6 +645,68 @@
 			};
 			name = Release;
 		};
+		6C6F6FF91A88CB56003F93C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WearTechCon1_WatchKit_Extension;
+				INFOPLIST_FILE = "WearTechCon1 WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		6C6F6FFA1A88CB56003F93C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WearTechCon1_WatchKit_Extension;
+				INFOPLIST_FILE = "WearTechCon1 WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		6C6F6FFC1A88CB56003F93C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WearTechCon1 WatchKit Extension/WearTechCon1 WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WearTechCon1 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6C6F6FFD1A88CB56003F93C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WearTechCon1 WatchKit Extension/WearTechCon1 WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "WearTechCon1 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,6 +726,7 @@
 				6C6F6FCF1A88CA08003F93C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C6F6FD01A88CA08003F93C6 /* Build configuration list for PBXNativeTarget "WearTechCon1Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +735,25 @@
 				6C6F6FD21A88CA08003F93C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6F6FF81A88CB56003F93C6 /* Build configuration list for PBXNativeTarget "WearTechCon1 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6F6FF91A88CB56003F93C6 /* Debug */,
+				6C6F6FFA1A88CB56003F93C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6F6FFB1A88CB56003F93C6 /* Build configuration list for PBXNativeTarget "WearTechCon1 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6F6FFC1A88CB56003F93C6 /* Debug */,
+				6C6F6FFD1A88CB56003F93C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

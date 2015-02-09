@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
+-(void)registerForNotification;
 
 @end
 
@@ -17,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self registerForNotification]; //not sure if this is right location
     return YES;
 }
 
@@ -42,4 +44,51 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forLocalNotification:(UILocalNotification *)notification completionHandler:(void (^)())completionHandler {
+    NSLog(@"phone:localNotification");
+}
+
+- (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forRemoteNotification:(NSDictionary *)userInfo completionHandler:(void (^)())completionHandler {
+    NSLog(@"phone:remoteNotification");
+}
+
+- (void)registerForNotification {
+    NSLog(@"registerForNotification");
+    UIMutableUserNotificationAction *action1;
+    action1 = [[UIMutableUserNotificationAction alloc] init];
+    [action1 setTitle:@"Drink"];
+    [action1 setActivationMode:UIUserNotificationActivationModeBackground];
+    [action1 setIdentifier:@"firstButtonAction"];
+//    [action1 setDestructive:NO];
+    [action1 setAuthenticationRequired:NO];
+    
+    UIMutableUserNotificationAction *action2;
+    action2 = [[UIMutableUserNotificationAction alloc] init];
+    [action2 setActivationMode:UIUserNotificationActivationModeBackground];
+    [action2 setTitle:@"Wait"];
+    [action2 setIdentifier:@"secondButtonAction"];
+//    [action2 setDestructive:NO];
+    [action2 setAuthenticationRequired:NO];
+    
+    UIMutableUserNotificationCategory *actionCategory;
+    actionCategory = [[UIMutableUserNotificationCategory alloc] init];
+    [actionCategory setActions:@[action1, action2]
+                    forContext:UIUserNotificationActionContextDefault];
+    [actionCategory setIdentifier:@"DrinkPhoneSide"];
+
+    NSSet *categories = [NSSet setWithObject:actionCategory];
+    UIUserNotificationType types = (UIUserNotificationTypeAlert|
+                                    UIUserNotificationTypeSound|
+                                    UIUserNotificationTypeBadge);
+    
+    UIUserNotificationSettings *settings;
+    settings = [UIUserNotificationSettings settingsForTypes:types
+                                                 categories:categories];
+    
+    [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
+}
+
+-(void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void (^)(NSDictionary *))reply {
+    NSLog(@"phone:handleWatchKitExtensionRequest");
+}
 @end

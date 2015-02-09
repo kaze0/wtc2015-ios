@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6750" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--38.WearTech-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="38.WearTech" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <imageView alignment="left" image="ic_action_armchair.png" id="LBp-ku-7aL"/>
+                        <button width="1" alignment="left" title="Modal" id="dUg-CL-NBP">
+                            <connections>
+                                <segue destination="cFZ-oZ-Zwb" kind="modal" id="j2q-W1-GIX"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Push to Menu" id="Je5-FC-eAg">
+                            <connections>
+                                <segue destination="19v-OB-VoP" kind="modal" id="ooS-S0-Qel"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="wOJ-uw-y4C"/>
+                        <dateLabel alignment="left" id="a2t-6h-bHT">
+                            <dateFormatterStyle key="dateStyle" none="YES" short="YES"/>
+                            <dateFormatterStyle key="timeStyle" none="YES" short="YES"/>
+                        </dateLabel>
+                        <timer alignment="left" id="MPg-D4-rc9"/>
+                        <slider width="1" alignment="left" continuous="YES" value="1" maximum="3" steps="3" id="Q9d-02-bu9"/>
+                        <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="FhZ-bR-u5S"/>
+                        <map height="100" alignment="left" id="6ZH-GI-IG2"/>
+                        <switch width="1" alignment="left" value="YES" title="Active" id="hhW-3h-tFU"/>
+                        <group width="1" alignment="left" id="DbC-hd-AIb">
+                            <items>
+                                <button width="0.5" alignment="left" title="Drink" id="nEC-eB-tMw">
+                                    <connections>
+                                        <action selector="drink" destination="AgC-eL-Hgc" id="nAL-ln-q7P"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="Delay" id="OqN-dh-jJc">
+                                    <connections>
+                                        <action selector="delay" destination="AgC-eL-Hgc" id="H1J-B8-Bql"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <variation key="device=watch42mm" layout="horizontal"/>
+                        </group>
+                    </items>
+                    <menu key="menu" id="G3Y-BY-oXf">
+                        <items>
+                            <menuItem title="Sit Down" image="ic_action_armchair.png" id="xAK-AE-1kC"/>
+                            <menuItem title="Menu Item" icon="accept" id="M5F-hd-I5X"/>
+                            <menuItem title="Party" image="ic_action_balloon.png" id="Yl5-4e-EuU"/>
+                        </items>
+                    </menu>
+                    <variation key="device=watch42mm" title="42.WearTech"/>
+                    <connections>
+                        <outlet property="delayButton" destination="OqN-dh-jJc" id="WBI-aO-ae3"/>
+                        <outlet property="drinkButton" destination="nEC-eB-tMw" id="2jE-n7-Bjp"/>
+                        <outlet property="map" destination="6ZH-GI-IG2" id="o7J-Xd-Zek"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="235" y="346.5"/>
+        </scene>
+        <!--Menu example-->
+        <scene sceneID="VRQ-G7-5gf">
+            <objects>
+                <controller title="Menu example" id="19v-OB-VoP">
+                    <menu key="menu" id="ycy-ai-l7w">
+                        <items>
+                            <menuItem title="Menu Item" icon="block" id="eZ8-l4-fNl"/>
+                        </items>
+                    </menu>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="517" y="199"/>
+        </scene>
+        <!--Cancel Text-->
+        <scene sceneID="NoT-JB-yYu">
+            <objects>
+                <controller title="Cancel Text" id="cFZ-oZ-Zwb"/>
+            </objects>
+            <point key="canvasLocation" x="517" y="415"/>
+        </scene>
+        <!--Pages-->
+        <scene sceneID="nuV-DT-inZ">
+            <objects>
+                <controller title="Pages" id="IZ9-iL-5dP">
+                    <connections>
+                        <segue destination="GFp-Bi-4Eg" kind="relationship" relationship="nextPage" id="sGH-AS-egc"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="734" y="415"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="kTb-qd-CcK">
+            <objects>
+                <controller id="GFp-Bi-4Eg">
+                    <items>
+                        <label alignment="left" text="Page 2" id="Cr4-Pr-DuV"/>
+                    </items>
+                    <variation key="device=watch38mm" title="P2 38"/>
+                    <variation key="device=watch42mm" title="P2 42"/>
+                    <connections>
+                        <segue destination="o8z-E5-dqY" kind="relationship" relationship="nextPage" id="cjY-Sf-jaR"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="486" y="727"/>
+        </scene>
+        <!--WTC P3-->
+        <scene sceneID="EM0-yf-AnE">
+            <objects>
+                <controller title="WTC P3" id="o8z-E5-dqY">
+                    <items>
+                        <label alignment="left" text="Page 3" id="HZe-b6-DVL"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="702" y="727"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y"/>
+                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="235" y="778"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="Yw9-8L-aLB">
+                            <items>
+                                <label width="1" alignment="left" text="Static Notification" id="oSv-PQ-e0J"/>
+                                <label alignment="center" text="&lt;message&gt;" textAlignment="center" numberOfLines="0" id="XkS-y5-khE"/>
+                            </items>
+                        </group>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="DrinkPhoneSide" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="235" y="1001"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController">
+                    <items>
+                        <label alignment="left" text="Dyanmic Notification" id="l2d-7c-vBP"/>
+                        <label alignment="right" text="Label" id="wzM-qj-hIQ"/>
+                        <imageView width="35" height="31" alignment="center" image="ic_action_armchair.png" id="IQx-bn-rMe"/>
+                    </items>
+                    <connections>
+                        <outlet property="label1" destination="wzM-qj-hIQ" id="PRM-Ix-dz2"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="553" y="980"/>
+        </scene>
+    </scenes>
+</document>
